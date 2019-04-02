@@ -26,7 +26,8 @@ while score == True:
                 again = True
             else:
                 print("correct!") #if correct
-                print("You have completed the game well done") #need to fix the user unput so peoples scores are updated
+                print("You have completed the game well done")
+                print("Your score is: " + str(count))
                 file.write("\n" + user + "," + str(count) + ",")
                 again = False
                 askloop = True
